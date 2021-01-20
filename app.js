@@ -41,6 +41,8 @@ if(sum % lu == 0){
 }
 else{
     txt="So sorry! No luck here!"
+    var x = document.getElementById("dpi");
+    x.style.display = "none";
 }
 console.log("Total of DOB  "+sum);
 console.log("Total of y "+sumy);
